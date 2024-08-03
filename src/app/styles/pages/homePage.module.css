@@ -1,0 +1,38 @@
+.content {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+}
+
+.destaque {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    gap: 1rem;
+    align-items: center;
+    background-color: #00416A;
+    color: #fff;
+}
+
+.destaque p {
+    font-size: 1rem;
+}
+
+/* .container {} */
+.pontos__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.artesanatos__wrapper{
+    display: flex;
+    gap: 1rem;
+}
